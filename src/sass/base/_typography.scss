@@ -1,0 +1,23 @@
+// -------------------------------
+//     TYPOGRAPHY
+// -------------------------------
+
+// *--------- GENERAL ---------*
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: $base__font-weight #{$base__font-size}/ 1 $base__font-family;
+    color: $base__text-color;
+}
+
+a {
+    transition: all 0.2s;
+
+    color: inherit;
+}
+
+strong {
+    font-weight: $base__font-weight--semibold;
+}

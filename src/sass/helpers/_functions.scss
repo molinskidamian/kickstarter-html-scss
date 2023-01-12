@@ -1,0 +1,7 @@
+// -------------------------------
+//     FUNCTIONS
+// -------------------------------
+
+@function icon($name, $ext: "svg") {
+    @return "/images/icons/#{$name}.#{$ext}";
+}

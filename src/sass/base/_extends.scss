@@ -1,0 +1,13 @@
+// -------------------------------
+//     EXTENDS
+// -------------------------------
+
+%clearfix {
+    @include clearfix;
+}
+
+%resetInput {
+    box-shadow: 0;
+    outline: none;
+    appearance: none;
+}

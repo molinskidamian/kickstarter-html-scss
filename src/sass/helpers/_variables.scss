@@ -1,0 +1,33 @@
+// -------------------------------
+//     BASE
+// -------------------------------
+
+// *--------- TYPOGRAPHY ---------*
+$base__font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$base__font-size: 100%;
+$base__font-weight: 400;
+$base__font-weight--light: 200;
+$base__font-weight--semibold: 600;
+$base__font-weight--bold: 700;
+
+// *--------- METRICS ---------*
+$base__border-radius: 8px;
+$base__border-radius--sm: 4px;
+
+// *--------- COLORS ---------*
+$base__text-color: #fff;
+$base__background-color: #121115;
+
+$accent__color: #f4b555;
+$dark__color: #26242b;
+$dark__text-color: #78777d;
+$light__text-color: #d4d4dd;
+$success__color: green;
+$danger__color: #f51d21;
+$warning__color: #ee5559;
+
+// *--------- BREAKPOINTS ---------*
+$breakpoint__large: 768px;
+$breakpoint__medium: 540px;
+$breakpoint__small: 360px;
